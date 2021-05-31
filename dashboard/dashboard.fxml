@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="700.0" minWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="dashboard.dashboardController">
+   <children>
+      <Label layoutX="10.0" layoutY="36.0" prefHeight="17.0" prefWidth="674.0" />
+      <Label layoutX="32.0" layoutY="-1.0" prefHeight="32.0" prefWidth="674.0" text="Newspaper Agency Assistant" textFill="RED" underline="true">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="73.0" text="Display Board" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="136.0" fitWidth="177.0" layoutX="47.0" layoutY="144.0" onMouseClicked="#PaperMaster" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.14%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="143.0" layoutX="301.0" layoutY="144.0" onMouseClicked="#HawkerControlPanel" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.12%20PM%20(1).jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="148.0" layoutX="530.0" layoutY="144.0" onMouseClicked="#CustomerManager" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.11%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="136.0" layoutX="47.0" layoutY="323.0" onMouseClicked="#BillGenerator" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.13%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="136.0" layoutX="301.0" layoutY="323.0" onMouseClicked="#BillCollector" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.13%20PM%20(1).jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="136.0" layoutX="530.0" layoutY="316.0" onMouseClicked="#CustomerDisplayBoard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.12%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="272.0" layoutY="502.0" onMouseClicked="#BillHistory" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202020-09-19%20at%2010.27.09%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="118.0" prefHeight="17.0" prefWidth="98.0" text="Paper Master">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="118.0" text="Hawker Control Panel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="539.0" layoutY="118.0" text="Customer Manager">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="474.0" text="Bill Generator">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="474.0" text="Bill Collector">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="474.0" text="Customer Display Board">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="569.0" prefHeight="17.0" prefWidth="68.0" text="Bill History" />
+   </children>
+</AnchorPane>
